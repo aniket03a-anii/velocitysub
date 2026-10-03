@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" width="192" height="192">
+  <defs>
+    <linearGradient id="submateGradSmall" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4f46e5"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+  </defs>
+  <rect width="192" height="192" rx="48" fill="url(#submateGradSmall)"/>
+  <path d="M58 134 C58 116, 72 102, 96 102 C120 102, 134 90, 134 72 C134 54, 118 42, 96 42 C74 42, 60 54, 58 70" fill="none" stroke="#ffffff" stroke-width="14" stroke-linecap="round"/>
+  <path d="M134 58 C134 76, 120 90, 96 90 C72 90, 58 102, 58 120 C58 138, 74 150, 96 150 C118 150, 132 138, 134 122" fill="none" stroke="#a5b4fc" stroke-width="14" stroke-linecap="round"/>
+  <circle cx="138" cy="54" r="7" fill="#38bdf8"/>
+</svg>

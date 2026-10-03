@@ -1,0 +1,22 @@
+{
+  "short_name": "SubMate AI",
+  "name": "SubMate AI — Smart Subscription & Hidden-Expense Detector",
+  "icons": [
+    {
+      "src": "/icon-192.svg",
+      "type": "image/svg+xml",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/icon-512.svg",
+      "type": "image/svg+xml",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#ffffff",
+  "theme_color": "#4f46e5",
+  "display": "standalone",
+  "orientation": "portrait",
+  "description": "Discover first. Ask users to confirm. Smart subscription and hidden-expense detector."
+}

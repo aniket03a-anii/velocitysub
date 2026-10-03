@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="submateGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4f46e5"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="128" fill="url(#submateGrad)"/>
+  <path d="M156 356 C156 310, 190 274, 256 274 C322 274, 356 240, 356 194 C356 148, 316 116, 256 116 C196 116, 160 148, 156 190" fill="none" stroke="#ffffff" stroke-width="36" stroke-linecap="round"/>
+  <path d="M356 156 C356 202, 322 238, 256 238 C190 238, 156 272, 156 318 C156 364, 196 396, 256 396 C316 396, 352 364, 356 322" fill="none" stroke="#a5b4fc" stroke-width="36" stroke-linecap="round"/>
+  <circle cx="366" cy="146" r="16" fill="#38bdf8"/>
+</svg>

@@ -1,0 +1,81 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --vault-canvas: #F2F0E7;
+    --vault-surface: #FBF9F3;
+    --vault-ink: #092326;
+    --vault-muted: #526064;
+    --vault-border: #D8D5CA;
+    --vault-sage: #E4EBD8;
+  }
+
+  body {
+    background-color: #F2F0E7;
+    color: #092326;
+    font-family: 'DM Sans', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+
+  h1, h2, .font-serif, .editorial-display {
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    letter-spacing: -0.015em;
+  }
+
+  .font-mono {
+    font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .tabular-nums {
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+/* Vault Utility Helper Classes */
+.bg-vault-canvas {
+  background-color: #F2F0E7;
+}
+
+.bg-vault-surface {
+  background-color: #FBF9F3;
+}
+
+.text-vault-ink {
+  color: #092326;
+}
+
+.text-vault-muted {
+  color: #526064;
+}
+
+.border-vault-line {
+  border-color: #D8D5CA;
+}
+
+.bg-vault-sage {
+  background-color: #E4EBD8;
+}
+
+/* Rounded-card standard: 12px (Page 6) */
+.rounded-vault {
+  border-radius: 12px;
+}
+
+/* Subtle scrollbars for low-noise calm design */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #D8D5CA;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #526064;
+}

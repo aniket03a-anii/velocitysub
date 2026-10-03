@@ -1,4 +1,4 @@
-# SubMate AI — Smart Subscription & Hidden-Expense Detector
+# Vault — Smart Subscription & Hidden-Expense Detector
 
 > **"Discover first. Ask users to confirm."**  
 > *Turn raw financial statements into actionable subscription intelligence.*
